@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OfficeDev/Office-Addin-TaskPane-Angular.git"
+    "url": "https://github.com/livepoll/live-poll-powerpoint.git"
   },
   "license": "MIT",
   "config": {
