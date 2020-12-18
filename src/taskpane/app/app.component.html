@@ -1,28 +1,21 @@
 <header class="ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500">
-    <img width="90" height="90" src="../../../assets/logo-filled.png" alt="Contoso Task Pane Add-in" title="Contoso Task Pane Add-in" />
-    <h1 class="ms-fontSize-su ms-fontWeight-light ms-fontColor-neutralPrimary">{{welcomeMessage}}</h1>
+    <img src="../../../assets/icon-128.png" alt="Live-Poll Logo" title="Live-Poll Logo" />
+    <h2>Welcome to Live-Poll!</h2>
 </header>
 <main class="ms-welcome__main">
-    <h2 class="ms-font-xl ms-fontWeight-semilight ms-fontColor-neutralPrimary ms-u-slideUpIn20"> Discover what Office Add-ins can do for you today! </h2>
-    <ul class="ms-List ms-welcome__features ms-u-slideUpIn10">
-        <li class="ms-ListItem">
-            <i class="ms-Icon ms-Icon--Ribbon"></i>
-            <span class="ms-font-m ms-fontColor-neutralPrimary">Achieve more with Office integration</span>
-        </li>
-        <li class="ms-ListItem">
-            <i class="ms-Icon ms-Icon--Unlock"></i>
-            <span class="ms-font-m ms-fontColor-neutralPrimary">Unlock features and functionality</span>
-        </li>
-        <li class="ms-ListItem">
-            <i class="ms-Icon ms-Icon--Design"></i>
-            <span class="ms-font-m ms-fontColor-neutralPrimary">Create and visualize like a pro</span>
-        </li>
-    </ul>
-    <br />
-    <br />
-    <p class="ms-font-l">Modify the source files, then click <b>Run</b>.</p>
-    <div role="button" class="ms-welcome__action ms-Button ms-Button--hero ms-u-slideUpIn20" (click)="run()">
-        <span class="ms-Button-label">Run</span>
-        <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
+    <h3>Insert poll results via url:</h3>
+
+    <!-- URL input field -->
+    <div class="ms-TextField">
+        <label class="ms-Label">Paste Poll URL / Snippet here:</label>
+        <input class="ms-TextField-field" type="text" placeholder="e.g.: https://p.live-poll.de/a23dfg7s">
     </div>
+
+    <!-- Insert button -->
+    <button class="ms-Button ms-Button--primary" (click)="insertPoll()">
+        <span class="ms-Button-label">Insert Poll Results</span>
+    </button>
+
+    <!-- Loading indicator -->
+    <div *ngIf="loading" class="ms-Spinner"></div>
 </main>
