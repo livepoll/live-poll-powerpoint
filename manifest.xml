@@ -77,7 +77,7 @@
         <bt:String id="TaskpaneButton.Label" DefaultValue="Insert Poll"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Live-Poll loaded successfully. Go to the Insert tab and click the 'Insert Poll' button to insert your first poll."/>
+        <bt:String id="GetStarted.Description" DefaultValue="Live-Poll loaded successfully. Click here to insert a live chart of the results of your poll."/>
         <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Insert a Poll"/>
       </bt:LongStrings>
     </Resources>
