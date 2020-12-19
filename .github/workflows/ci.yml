@@ -1,0 +1,33 @@
+# Workflow for Angular CI build
+
+name: Angular CI
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths-ignore: [ 'README.md', '.git**' ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x, 12.x, 10.x]
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Node ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - uses: actions/cache@v2
+      with:
+        path: '**/node_modules'
+        key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+    - name: Install & Build
+      run: |
+        yarn install
+        yarn run build
