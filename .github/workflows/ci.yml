@@ -4,7 +4,6 @@ name: Angular CI
 
 on:
   push:
-    branches: [ main, develop ]
     paths-ignore: [ 'README.md', '.git**' ]
   pull_request:
     branches: [ main, develop ]
