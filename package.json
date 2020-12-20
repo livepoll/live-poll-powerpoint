@@ -1,6 +1,12 @@
 {
   "name": "office-addin-taskpane-angular",
+  "description": "Official Live-Poll PowerPoint AddIn to embed live poll results directly into your presentation",
   "version": "0.0.1",
+  "author": {
+    "name": "Marc Auberer",
+    "email": "support@live-poll.de",
+    "url": "www.live-poll.de"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/livepoll/live-poll-powerpoint.git"
