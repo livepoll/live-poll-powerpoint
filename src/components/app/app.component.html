@@ -1,8 +1,15 @@
+<!--
+  ~ Copyright © Live-Poll 2020-2021. All rights reserved
+  -->
+
 <header class="ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500">
     <img src="../../../assets/icon-128.png" alt="Live-Poll Logo" title="Live-Poll Logo" />
     <h2>Welcome to Live-Poll!</h2>
 </header>
 <main class="ms-welcome__main">
+
+    <div></div>
+
     <!-- URL input field -->
     <div class="ms-TextField">
         <label class="ms-Label">Paste Poll URL / Snippet here:</label>
@@ -16,4 +23,10 @@
 
     <!-- Loading indicator -->
     <div *ngIf="loading" class="ms-Spinner"></div>
+
+    <!-- Preview image -->
+    <ngx-charts-bar-horizontal class="chart" [view]="[0, 300]" [results]="getChartData(pollItem.id)"
+                               scheme="forest" xAxis="true" yAxis="true" legend="true" showXAxisLabel="true"
+                               showYAxisLabel="true" animations="true" xAxisLabel="Participants" yAxisLabel="Answers">
+    </ngx-charts-bar-horizontal>
 </main>

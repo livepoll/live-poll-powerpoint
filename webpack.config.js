@@ -1,3 +1,7 @@
+/*
+ * Copyright © Live-Poll 2020-2021. All rights reserved
+ */
+
 const devCerts = require("office-addin-dev-certs");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
@@ -15,7 +19,7 @@ module.exports = async (env, options) => {
     devtool: "source-map",
     entry: {
       polyfill: "@babel/polyfill",
-      taskpane: "./src/taskpane/taskpane.ts",
+      taskpane: "./src/components/components.ts",
       commands: "./src/commands/commands.ts"
     },
     resolve: {
@@ -50,15 +54,15 @@ module.exports = async (env, options) => {
     plugins: [
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
-        filename: "taskpane.html",
-        template: "./src/taskpane/taskpane.html",
+        filename: "components.html",
+        template: "./src/components/components.html",
         chunks: ["polyfill", "taskpane"]
       }),
       new CopyWebpackPlugin({
         patterns: [
         {
-          to: "taskpane.css",
-          from: "./src/taskpane/taskpane.css"
+          to: "components.css",
+          from: "./src/components/components.css"
         },
         {
           to: "[name]." + buildType + ".[ext]",

@@ -1,6 +1,5 @@
 /*
- * Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.
- * See LICENSE in the project root for license information.
+ * Copyright © Live-Poll 2020-2021. All rights reserved
  */
 import "zone.js"; // Required for Angular
 import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";

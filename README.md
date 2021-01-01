@@ -17,4 +17,4 @@ If you find a bug, please let us know by [opening an issue](https://github.com/l
 ## Security policy
 If you want to report a security vulnerability, please read our security policy in the [SECURITY.md](https://github.com/StudentsAgainstCovid19/corona-aid/blob/master/SECURITY.md) file.
 
-© Live-Poll 2020
+© Live-Poll 2020-2021
