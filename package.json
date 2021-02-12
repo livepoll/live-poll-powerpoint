@@ -60,7 +60,7 @@
     "office-addin-cli": "^1.0.17",
     "office-addin-debugging": "^3.0.42",
     "office-addin-dev-certs": "^1.5.12",
-    "office-addin-lint": "^1.0.31",
+    "office-addin-lint": "^1.0.32",
     "office-addin-manifest": "1.5.16",
     "office-addin-prettier-config": "^1.0.14",
     "source-map-loader": "^1.1.3",
