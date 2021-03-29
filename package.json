@@ -43,7 +43,7 @@
     "zone.js": "^0.8.29"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.10",
+    "@babel/core": "^7.13.13",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.13.12",
     "@types/find-process": "1.2.0",
