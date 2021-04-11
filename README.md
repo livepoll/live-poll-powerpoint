@@ -1,5 +1,19 @@
-# Live-Poll AddIn for Microsoft PowerPoint
-![NPM Build](https://github.com/livepoll/live-poll-powerpoint/workflows/Angular%20CI/badge.svg)
+<p align="center">
+  <img alt="Live-Poll Logo" src="./media/logo.png" height="220" />
+  <h3 align="center">Live-Poll PowerPoint AddIn</h3>
+  <p align="center">Easy to use, web-based poll management system.</p>
+  <p align="center">
+    <a target="_blank" href="https://github.com/livepoll/live-poll-powerpoint/releases/latest"><img src="https://img.shields.io/github/v/release/livepoll/live-poll-powerpoint?include_prereleases"></a>
+    <a target="_blank" href="./.github/workflows/ci.yml"><img src="https://github.com/livepoll/live-poll-powerpoint/workflows/Angular%20CI/badge.svg"></a>
+    <a target="_blank" href="./.github/workflows/codeql-analysis.yml"><img src="https://github.com/livepoll/live-poll-powerpoint/actions/workflows/codeql-analysis.yml/badge.svg"></a>
+    <a target="_blank" href="https://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
+    <a target="_blank" href="./LICENSE.md"><img src="https://img.shields.io/github/license/livepoll/live-poll-powerpoint"></a>
+  </p>
+</p>
+
+---
+
+## Description
 
 This is the official Live-Poll PowerPoint AddIn. It can be used to embed the live results of any poll, created with Live-Poll directly into a PowerPoint presentation.
 
