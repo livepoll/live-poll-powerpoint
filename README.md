@@ -1,34 +1,34 @@
-# Office-Addin-TaskPane-Angular
- 
-This repository contains the source code used by the [Yo Office generator](https://github.com/OfficeDev/generator-office) when you create a new Office Add-in that appears in the task pane. You can also use this repository as a sample to base your own project from if you choose not to use the generator. 
+<p align="center">
+  <img alt="Live-Poll Logo" src="./media/logo.png" height="220" />
+  <h3 align="center">Live-Poll PowerPoint AddIn</h3>
+  <p align="center">Easy to use, web-based poll management system.</p>
+  <p align="center">
+    <a target="_blank" href="https://github.com/livepoll/live-poll-powerpoint/releases/latest"><img src="https://img.shields.io/github/v/release/livepoll/live-poll-powerpoint?include_prereleases"></a>
+    <a target="_blank" href="./.github/workflows/ci.yml"><img src="https://github.com/livepoll/live-poll-powerpoint/workflows/Angular%20CI/badge.svg"></a>
+    <a target="_blank" href="./.github/workflows/codeql-analysis.yml"><img src="https://github.com/livepoll/live-poll-powerpoint/actions/workflows/codeql-analysis.yml/badge.svg"></a>
+    <a target="_blank" href="https://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
+    <a target="_blank" href="./LICENSE.md"><img src="https://img.shields.io/github/license/livepoll/live-poll-powerpoint"></a>
+  </p>
+</p>
 
-## TypeScript
+---
 
-This template is written using [TypeScript](http://www.typescriptlang.org/). For the JavaScript version of this template, go to [Office-Addin-TaskPane-Angular-JS](https://github.com/OfficeDev/Office-Addin-TaskPane-Angular-JS).
+## Description
 
-## Debugging
+This is the official Live-Poll PowerPoint AddIn. It can be used to embed the live results of any poll, created with Live-Poll directly into a PowerPoint presentation.
 
-This template supports debugging using any of the following techniques:
+## Usage
+To install the AddIn to your local PowerPoint instance, act as follows:
 
-- [Use a browser's developer tools](https://docs.microsoft.com/office/dev/add-ins/testing/debug-add-ins-in-office-online)
-- [Attach a debugger from the task pane](https://docs.microsoft.com/office/dev/add-ins/testing/attach-debugger-from-task-pane)
-- [Use F12 developer tools on Windows 10](https://docs.microsoft.com/office/dev/add-ins/testing/debug-add-ins-using-f12-developer-tools-on-windows-10)
+- Download [this ZIP file](#usage)
+- Unzip it
+- Follow the [official Microsoft instructions](https://support.microsoft.com/en-us/office/add-or-load-a-powerpoint-add-in-3de8bbc2-2481-457a-8841-7334cd5b455f) to install the AddIn to PowerPoint
 
-## Questions and comments
+## Supported PowerPoint versions
+This AddIn should work on all modern PowerPoint versions. We've fully tested all functionalities in PowerPoint 2016, 2019, Office 365 and PowerPoint Online.
+If you find a bug, please let us know by [opening an issue](https://github.com/livepoll/live-poll-powerpoint/issues/new) in this repo.
 
-We'd love to get your feedback about this sample. You can send your feedback to us in the *Issues* section of this repository.
+## Security policy
+If you want to report a security vulnerability, please read our security policy in the [SECURITY.md](https://github.com/StudentsAgainstCovid19/corona-aid/blob/master/SECURITY.md) file.
 
-Questions about Microsoft Office 365 development in general should be posted to [Stack Overflow](http://stackoverflow.com/questions/tagged/office-js+API).  If your question is about the Office JavaScript APIs, make sure it's tagged with  [office-js].
-
-## Additional resources
-
-* [Office add-in documentation](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
-* More Office Add-in samples at [OfficeDev on Github](https://github.com/officedev)
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-## Copyright
-
-Copyright (c) 2019 Microsoft Corporation. All rights reserved.
-# live-poll-powerpoint
-# Live-Poll PowerPoint AddIn
+© Live-Poll 2020
