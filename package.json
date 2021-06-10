@@ -48,7 +48,7 @@
     "@babel/preset-env": "^7.14.5",
     "@types/find-process": "1.2.0",
     "@types/office-js": "^1.0.182",
-    "@types/office-runtime": "^1.0.17",
+    "@types/office-runtime": "^1.0.18",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^6.4.1",
