@@ -47,7 +47,7 @@
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.15.6",
     "@types/find-process": "1.2.0",
-    "@types/office-js": "^1.0.205",
+    "@types/office-js": "^1.0.206",
     "@types/office-runtime": "^1.0.21",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^3.0.0",
